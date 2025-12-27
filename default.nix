@@ -19,6 +19,9 @@ lib.makeScope newScope (self: let
       python3 = python310;
     };
 
+    "0_17_0" = mkSdk "0_17_0" {
+      python3 = python310;
+    };
     "0_16" = mkSdk "0_16" {
       python3 = python310;
     };

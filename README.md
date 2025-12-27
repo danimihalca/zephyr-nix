@@ -93,6 +93,10 @@ mkShell {
 }
 ```
 
+``` bash
+nix shell <zephyr-nix_PATH>#hosttools-0_17 <zephyr-nix_PATH>#sdkFull-0_17
+```
+
 ## Using specific SDK versions
 
 `zephyr-nix` packages multiple Zephyr SDK versions that can be accessed by their versioned attributes.
